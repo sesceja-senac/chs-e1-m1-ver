@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="../../assets/css/custom.css">
     <!-- custom especifico -->
     <link rel="stylesheet" href="./custom.css">
+    <!-- associar colunas -->
+    <link rel="stylesheet" href="../../assets/objeto_associarColunas/css/associar-colunas.css">
   </head>
   <body class="bg-sesc">
     <div class="preloader">
@@ -679,6 +681,95 @@ A frase “ninguém nasce mulher, torna-se”, da filósofa Simone de Beauvoir, 
                 <p>
                     Você deve ter percebido até o momento que existem leis que visam à diminuição da violência de gênero. Porém, é importante salientar a Lei nº 13.104, que entrou em vigor no dia 9 de março de 2015. Essa lei trata do feminicídio, tornando-o um homicídio qualificado, com penas mais altas, de 12 a 30 anos de prisão. 
                 </p>
+                <p>
+                    A seguir, relacione as leis da primeira coluna com as definições da segunda coluna. Para isso, clique ou toque em um botão da coluna numerada e depois escolha um botão da coluna com o símbolo de “?” com a opção correta. 
+                </p>
+                <!-- aqui -->
+                <div class="game-associar-colunas no-print nao-imprimir">
+                    <div class="row div-associar-colunas">
+                        <div class="col-4 flexs associar-colunas_01">
+                            <button data-resp="1" class="item item1">
+                                1. Lei nº 13.340  
+                            </button>
+
+                            <button data-resp="2" class="item item2">
+                                2. Lei nº 13.104 
+                            </button>
+
+                            <button data-resp="3" class="item item3">
+                                3. Lei nº 2.848 
+                            </button>
+                        </div>
+                        <div class="col-8 flexs mt-3 associar-colunas_02">
+
+                            <button type="button" data-resp="1" class="resp resp1">
+                                <div class="txtacao"><i class="fas fa-question"></i></div>
+                                <p>Aprovada em agosto de 2006, é uma lei brasileira que visa coibir e prevenir os diversos tipos de violência contra as mulheres. É composta de 46 artigos distribuídos em sete títulos. A lei carrega o nome de uma mulher brasileira que ficou paraplégica devido às agressões do seu marido. </p>
+                            </button>
+
+                            <button type="button" data-resp="2" class="resp resp2">
+                                <div class="txtacao"><i class="fas fa-question"></i></div>
+                                <p>Refere-se ao assassinato de mulheres por serem mulheres, ou seja, considera-se feminicídio quando envolve menosprezo, discriminação e violências que ocasionam na morte do sexo feminino. </p>
+                            </button>
+
+                            <button type="button" data-resp="3" class="resp resp3">
+                                <div class="txtacao"><i class="fas fa-question"></i></div>
+                                <p>Foi decretada em 7 de dezembro de 1940 e se refere ao homicídio de qualquer pessoa por motivos diversos. </p>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Modal -->
+                    <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
+                        id="associar_colulas_errou" tabindex="-1" aria-labelledby="associarColunasErrou"
+                        aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered animate__animated animate__bounceIn">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="associarColunasErrou">Ops, tente novamente!</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Modal -->
+                    <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
+                        id="associar_colulas_acertou" tabindex="-1" aria-labelledby="associarColunasAcertou"
+                        aria-hidden="true">
+                        <div
+                            class="modal-dialog modal-dialog-centered  animate__animated animate__zoomIn animate__faster">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="associarColunasAcertou">Muito bem! Você acertou!
+                                    </h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <span class="print-only only-print">
+                    <p>Associe a primeira coluna com a segunda.</p>
+                    <table class="associe-colunas">
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>
+                                <br><br>
+                                <br><br>
+                                <br><br>
+                                <br><br>
+                            </td>
+                        </tr>
+                    </table>
+                </span>
                 <!-- aqui -->
                 <p>A seguir, relacione as leis da primeira coluna com as definições da segunda coluna. Para isso, <strong> clique</strong> ou <strong>toque</strong> em um botão da coluna numerada e depois escolha um botão da coluna com o símbolo de “<strong>?</strong>” com a opção correta. 
 
@@ -688,11 +779,25 @@ A frase “ninguém nasce mulher, torna-se”, da filósofa Simone de Beauvoir, 
 
             <!--  -->
             <h3>Conclusão</h3>
-            <p>A partir da compreensão sobre cultura, etnocentrismo, relativismo cultural, racismo e xenofobia, foi possível realizar uma análise sobre problemas e conflitos da sociedade. Além disso, pôde-se avaliar, com base em acontecimentos históricos, que as ações do nosso presente carregam preconceitos sociais de muitos anos. </p>
+            <!-- <p>A partir da compreensão sobre cultura, etnocentrismo, relativismo cultural, racismo e xenofobia, foi possível realizar uma análise sobre problemas e conflitos da sociedade. Além disso, pôde-se avaliar, com base em acontecimentos históricos, que as ações do nosso presente carregam preconceitos sociais de muitos anos. </p>
             <p>Os conflitos de guerras entre países e populações também geram consequências ao Brasil. O caso do imigrante africano Moïse ilustra isso. Sua história repercutiu no mundo e trouxe um debate muito importante para os brasileiros: a discriminação racial e a xenofobia, pois o mundo passa por graves crises migratórias vinculadas ao processo de neocolonialismo do passado.     </p>
             <p>Uma segunda abordagem pertinente ao cotidiano foi a exposição à violência de gênero agravada pela pandemia de covid-19. Ainda não é possível mensurar todas as consequências dessa situação de saúde mundial. Um dos efeitos negativos da pandemia, que já faz parte dos estudos da sociedade, é o aumento significativo da violência doméstica. Você pôde analisar o quanto o isolamento social agravou essa situação e o que a legislação brasileira diz sobre esses casos de violência. Assim como há a violência resultante da exclusão social e das diversas formas de preconceito, há a violência de gênero em uma parcela da população que sofre cotidianamente. Com isso, verificou-se que é possível explicar esses fatos por meio das ciências humanas. Esse foi o <span class="tooltip-marker" data-bs-toggle="tooltip" data-bs-placement="top" title="Centro, ponto principal de um debate, de um assunto, destaque para o que é o mais importante de algo que está sendo apresentado. ">cerne</span> deste módulo.                </p>
-            <p>Que a sua experiência com o conteúdo de ciências humanas e sociais aplicadas tenha somado ao seu aprendizado e você possa formar uma opinião crítica e científica sobre a sociedade em que está inserido. </p>
-
+            <p>Que a sua experiência com o conteúdo de ciências humanas e sociais aplicadas tenha somado ao seu aprendizado e você possa formar uma opinião crítica e científica sobre a sociedade em que está inserido. </p> -->
+            <p>
+                A partir da compreensão sobre cultura, etnocentrismo, relativismo cultural, racismo e xenofobia, foi possível realizar uma análise sobre problemas e conflitos da sociedade. Além disso, pôde-se avaliar, com base em acontecimentos históricos, que as ações do nosso presente carregam preconceitos sociais de muitos anos.  
+            </p>
+            <p>
+                Percebemos que o racismo é uma questão social e histórica, que ainda, infelizmente, permanece em nossa sociedade, atingindo não só o jogador Vini Jr. (abordado neste módulo), mas tantas outras pessoas pretas. Esse é um problema de toda a nossa sociedade, que, para ser resolvido, necessita do esforço, do combate e da ação conjunta de todos. 
+            </p>
+            <p>
+                O preconceito e a discriminação não têm mais lugar em nosso mundo, nas redes sociais, nos estádios, nas escolas, no mercado de trabalho e em tantos outros lugares que ocorre. Além de uma maior conscientização social, são necessárias também leis mais rígidas e atuantes nesse processo. 
+            </p>
+            <p>
+                Uma segunda abordagem pertinente ao cotidiano foi a questão da violência de gênero, trazendo as informações sobre o aumento dos feminicídios em nosso país. Notamos que esse aumento tem relação com as construções de gênero na sociedade, que geram desigualdade entre homens e mulheres.  
+            </p>
+            <p>
+                Com isso, verificou-se que é possível explicar esses fatos por meio das ciências humanas e sociais aplicadas, sendo o ponto central deste módulo. Que a sua experiência com este conteúdo tenha somado ao seu aprendizado e você possa formar uma opinião crítica e científica e, assim, também atuar com esses conhecimentos na sociedade em que está inserido. 
+            </p>
             
             <div class="paginacao-sesc-eja">
                 <a href="../03-direitos-humanos/index.html" class="btn-paginacao-sesc-eja volt"></a>
@@ -725,6 +830,7 @@ A frase “ninguém nasce mulher, torna-se”, da filósofa Simone de Beauvoir, 
 
     <script src="../../assets/js/audio-player.js"></script>
     <script src="../../assets/interativos/esquema_bru/esquema-bru.js"></script>
+    <script src="../../assets/objeto_associarColunas/js/associar-colunas.js"></script>
     <script src="../../assets/js/geral.js"></script>
     <script src="./custom.js"></script>
 
