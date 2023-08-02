@@ -1,0 +1,25 @@
+.icone.pesquisa::before{
+    background-image: url(../img/ico-pesquisar.png);
+    width: 100px;
+    height: 125px;
+    left: -54px;
+}
+
+.caixa-slide{
+    padding: 10px;
+    border: 3px solid orange;
+    width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+    margin-top: -39px;
+    position: relative;
+    z-index: 2;
+    background-color: white;
+}
+
+@media screen and (min-width:480px){
+    .caixa-slide{
+        margin-top: -55px;
+    }
+}

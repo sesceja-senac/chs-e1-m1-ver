@@ -1,0 +1,148 @@
+* {
+    transition-duration: .3s;
+}
+
+.pagina {
+    padding-bottom: 30px;
+}
+
+.infografico1{
+    background: url('../imgs/infografico1-bg.png') no-repeat;
+    width: 890px;
+    height: 1108px;
+    margin: 30px auto;
+    padding: 15px 20px;
+}
+.balao{
+    background: url(../imgs/infografico1-balao.png) no-repeat;
+    width: 470px;
+    height: 145px;
+    padding: 0px 10px 0 40px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+}
+.balao p{font-size: 0.9rem;}
+
+.gif {
+    float: right;
+    height: 250px;
+    margin: 10px;
+}
+
+.m-img {
+    margin: 30px auto;
+}
+
+.ilustra03 {
+    width: 100%;
+}
+
+.caixa {
+    margin: 30px auto;
+}
+
+.video {
+    background-color: black;
+    margin: 30px auto;
+    display: block;
+    border-radius: 5px;
+}
+
+.bt-filosofia, .bt-geografia {
+    margin: 30px 10px;
+    padding: 10px 60px;
+    font-size: 20px;
+    background-color: transparent;
+    border: 2px solid #00838D;
+    border-radius: 10px;
+    width: 210px;
+    color: #212529;
+}
+
+.bt-filosofia:hover, .bt-geografia:hover {
+    background-color: #00838D;
+    color: white;
+}
+
+.btn-container {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.ilustra01 {
+    margin: 20px auto;
+}
+
+.p-top {
+    padding-top: 45px;
+}
+
+@media screen and (max-width: 1080px){
+    .infografico1{
+        width: 100%;
+    }
+    .infografico1 img{
+        max-width: 55%;
+    }
+    .video{max-width: 100%;}
+}
+
+@media (max-width: 600px) {
+    .gif {
+        float: unset;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .btn-container {
+        flex-direction: column;
+    }
+
+    .infografico1 {
+        background-image: unset;
+        background-color: #00a7b3;
+        border-radius: 25px;
+        height: auto;
+    }
+
+    .infografico1 .d-flex {
+        flex-direction: column;
+    }
+
+    .infografico1 .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .infografico1 img {
+        max-width: 90%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    .balao {
+        width: 100%;
+        background-image: unset;
+        background-color: white;
+        margin: 5px;
+        border-radius: 15px;
+        padding: 10px;
+    }
+
+    .balao p {
+        margin: 10px auto;
+        
+    }
+}
+
+
+@media screen and (max-width:400px){
+    .caixa{
+        padding: 2px;
+    }
+    .balao{
+        height: auto;
+    }
+}

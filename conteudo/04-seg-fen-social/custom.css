@@ -1,0 +1,366 @@
+.btn-mapa {
+  top: 358px;
+  width: 217px;
+  height: 205px;
+  background-image: url(../img/infografico_1_bt_1.png);
+  position: absolute;
+  left: 50px;
+}
+.btn-mapa:hover {
+  background-image: url(../img/infografico_1_bt_1_hover.png);
+  cursor: pointer;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+.cartilha {
+  background-image: url(../img/bt-cartilha.png);
+  height: 89px;
+  width: 89px;
+  display: inline-block;
+}
+.cartilha:hover {
+  background-position: right;
+}
+
+.texto-mulher {
+  color: #641884;
+}
+
+.btn-orca {
+  width: 198px;
+  height: 208px;
+  background-image: url(../img/infografico_1_bt_2.png);
+  position: absolute;
+  left: 139px;
+  top: 146px;
+}
+.btn-orca:hover {
+  background-image: url(../img/infografico_1_bt_2_hover.png);
+  cursor: pointer;
+}
+
+.btn-domestica {
+  width: 356px;
+  height: 238px;
+  background-image: url(../img/infografico_1_bt_3.png);
+  position: absolute;
+  left: 349px;
+  top: 70px;
+}
+.btn-domestica:hover {
+  background-image: url(../img/infografico_1_bt_3_hover.png);
+  cursor: pointer;
+}
+
+.btn-trabalho {
+  width: 405px;
+  height: 204px;
+  background-image: url(../img/infografico_1_bt_4.png);
+  position: absolute;
+  right: 0;
+  top: 246px;
+}
+.btn-trabalho:hover {
+  background-image: url(../img/infografico_1_bt_4_hover.png);
+  cursor: pointer;
+}
+
+.btn-comunidade {
+  width: 363px;
+  height: 223px;
+  background-image: url(../img/infografico_1_bt_5.png);
+  position: absolute;
+  left: 220px;
+  bottom: 320px;
+}
+.btn-comunidade:hover {
+  background-image: url(../img/infografico_1_bt_5_hover.png);
+  cursor: pointer;
+}
+
+.btn-alcoolismo {
+  width: 316px;
+  height: 194px;
+  background-image: url(../img/infografico_1_bt_6.png);
+  position: absolute;
+  right: 0;
+  top: 494px;
+}
+.btn-alcoolismo:hover {
+  background-image: url(../img/infografico_1_bt_6_hover.png);
+  cursor: pointer;
+}
+
+.btn-forum {
+  width: 374px;
+  height: 225px;
+  background-image: url(../img/infografico_1_bt_7.png);
+  position: absolute;
+  bottom: 56px;
+  left: 320px;
+}
+.btn-forum:hover {
+  background-image: url(../img/infografico_1_bt_7_hover.png);
+  cursor: pointer;
+}
+
+.info-danos-causados {
+  padding-top: 200px;
+  position: relative;
+  width: 900px;
+  height: 1030px;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url(../img/infografico_1_fundo.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+
+.btn-mulher {
+  width: 167px;
+  height: 167px;
+  background-color: #ff9700;
+  position: absolute;
+}
+
+.btn-mulher.m1 {
+  background-image: url(../img/painelclicavel_1.png);
+  left: 167px;
+}
+.btn-mulher.m1:hover {
+  background-image: url(../img/painelclicavel_1_hover.png);
+  cursor: pointer;
+}
+
+.btn-mulher.m2 {
+  background-image: url(../img/painelclicavel_2.png);
+  top: 167px;
+}
+.btn-mulher.m2:hover {
+  background-image: url(../img/painelclicavel_2_hover.png);
+  cursor: pointer;
+}
+
+.btn-mulher.m3 {
+  background-image: url(../img/painelclicavel_3.png);
+  left: 167px;
+  top: 167px;
+}
+.btn-mulher.m3:hover {
+  background-image: url(../img/painelclicavel_3_hover.png);
+  cursor: pointer;
+}
+
+.btn-mulher.m4 {
+  background-image: url(../img/painelclicavel_4.png);
+  top: 167px;
+  left: 334px;
+}
+.btn-mulher.m4:hover {
+  background-image: url(../img/painelclicavel_4_hover.png);
+  cursor: pointer;
+}
+
+.btn-mulher.m5 {
+  background-image: url(../img/painelclicavel_5.png);
+  top: 334px;
+}
+.btn-mulher.m5:hover {
+  background-image: url(../img/painelclicavel_5_hover.png);
+  cursor: pointer;
+
+}
+
+.btn-mulher.m6 {
+  background-image: url(../img/painelclicavel_6.png);
+  top: 334px;
+  left: 167px;
+}
+.btn-mulher.m6:hover {
+  background-image: url(../img/painelclicavel_6_hover.png);
+  cursor: pointer;
+
+}
+
+.btn-mulher.m7 {
+  background-image: url(../img/painelclicavel_7.png);
+  top: 501px;
+}
+.btn-mulher.m7:hover {
+  background-image: url(../img/painelclicavel_7_hover.png);
+  cursor: pointer;
+}
+
+.btns-mulher {
+  position: relative;
+  width: 500px;
+  height: 673px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.caixa {
+  border-color: #067c7c;
+}
+
+.center {
+  text-align: center;
+}
+
+
+.artigo-header {
+  border-bottom: 2px solid #067c7c;;
+}
+.icone.pesquisa::before  {
+  width: 104px;
+}
+.icone.pesquisa::before {
+  background-image: url(../img/ico-pesquisar.png);
+}
+.icone.pesquisa  {
+  padding-left: 95px;
+}
+
+figure {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+
+.fbook {
+  transition: opacity 0.4s 0.2s;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.fpage img {
+  max-width: 100%;
+}
+.fpage {
+  width: 30vw;
+  height: 44vw;
+  background-color: #111111;
+  float: left;
+  margin-bottom: 0.5em;
+  background: left top no-repeat;
+  background-size: cover;
+}
+.fpage:nth-child(even) {
+  clear: both;
+}
+.fbook {
+  perspective: 250vw;
+}
+.fbook .fpages {
+  width: 60vw;
+  height: 44vw;
+  position: relative;
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  border-radius: 4px;
+  /*box-shadow: 0 0 0 1px #e3dfd8;*/
+}
+.fbook .fpage {
+  float: none;
+  clear: none;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  width: 30vw;
+  height: 44vw;
+  transform-origin: 0 0;
+  transition: transform 1.4s;
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  user-select: none;
+  background-color: #f2f2f1;
+  display: flex;
+}
+.fbook .fpage:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.7s;
+  z-index: 2;
+}
+.fbook .fpage:nth-child(odd) {
+  pointer-events: all;
+  transform: rotateY(0deg);
+  right: 0;
+  border-radius: 0 4px 4px 0;
+}
+.fbook .fpage:nth-child(odd):hover {
+  transform: rotateY(-15deg);
+}
+.fbook .fpage:nth-child(odd):hover:before {
+  background: rgba(0, 0, 0, 0.03);
+}
+.fbook .fpage:nth-child(odd):before {
+  background: rgba(0, 0, 0, 0);
+}
+.fbook .fpage:nth-child(even) {
+  pointer-events: none;
+  transform: rotateY(180deg);
+  transform-origin: 100% 0;
+  left: 0;
+  border-radius: 4px 0 0 4px;
+  border-color: black;
+}
+.fbook .fpage.grabbing {
+  transition: none;
+}
+.fbook .fpage.flipped:nth-child(odd) {
+  pointer-events: none;
+  transform: rotateY(-180deg);
+}
+.fbook .fpage.flipped:nth-child(even) {
+  pointer-events: all;
+  transform: rotateY(0deg);
+}
+.fbook .fpage.flipped:nth-child(even):hover {
+  transform: rotateY(15deg);
+}
+*,
+* :before,
+*:after {
+  box-sizing: border-box;
+}
+
+
+@media only screen and (max-width: 550px) {
+  .btns-mulher {
+    width: 334px;
+  }
+  .btn-mulher.m1 {
+    top: 0;
+    left: 0;
+  }
+  .btn-mulher.m4 {
+    top: 0;
+    left: 167px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .btns-mulher {
+    transform: scale(0.7);
+  }
+}
+
+
+
+

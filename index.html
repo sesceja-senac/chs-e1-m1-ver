@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="capa/css/style.css">
+  <title>Ciências humanas e sociais aplicadas</title>
+</head>
+<body>
+  <div class="cover-wrap">
+    <div class="cover-content-wrap">
+      <div class="left-col">
+        <img id="logo" src="./capa/img/tela-inicial-titulo.png" alt="">
+      </div>
+
+      <div class="right-col">
+       <div class="options">
+        <div class="option">
+          <div class="circle cricle1">
+            <img style="max-width: 80%;" src="./conteudo/img/icotela1.png" alt="">
+          </div>
+          <div class="title title1">
+            <a href="./conteudo/01-introducao/index.html">Introdução às Ciências Humanas</a>
+          </div>
+        </div>
+
+        <div class="option">
+          <div class="circle cricle2">
+            <img style="max-width: 80%;" src="./conteudo/img/icotela2.png" alt="">
+          </div>
+          <div class="title title2">
+            <a href="./conteudo/02-primeiro-fenomeno/index.html">PRIMEIRO FENÔMENO SOCIAL</a>
+          </div>
+        </div>
+
+        <div class="option">
+          <div class="circle cricle3">
+            <img style="max-width: 80%;" src="./conteudo/img/icotela3.png" alt="">
+          </div>
+          <div class="title title3"><a href="./conteudo/03-direitos-humanos/index.html">DIREITOS HUMANOS</a></div>
+        </div>
+
+        <div class="option">
+          <div class="circle cricle4">
+            <img style="max-width: 80%;" src="./conteudo/img/icotela4.png" alt="">
+          </div>
+          <div class="title title4"><a href="./conteudo/04-seg-fen-social/index.html">SEGUNDO FENÔMENO SOCIAL</a></div>
+        </div>
+
+        <div class="option">
+          <div class="circle cricle4">
+            <img style="max-width: 80%;" src="./conteudo/img/icotela5.png" alt="">
+          </div>
+          <div class="title title4"><a href="./conteudo/04-seg-fen-social/refs.html">REFERÊNCIAS</a></div>
+        </div>
+
+       </div>
+       <!-- /options -->
+      </div>
+      <!-- /right-col -->
+    </div>
+    <!-- /cover-content-wrap -->
+  </div>
+
+   <!-- Versao atual do handtalk -->
+   <script>
+    var scriptElem=document.createElement("script");
+    scriptElem.src="https://plugin.handtalk.me/web/latest/handtalk.min.js",
+    scriptElem.charset="UTF-8",
+    scriptElem.onload=function(){
+        window.ht = new HT({
+            token:"bf5b7efb148a829a126a0e0c9fd533bf",
+            align:"top",
+            videoEnabled: true,
+            ytEmbedReplace: true,           
+            mobileConfig:{align:"right",
+                            actionsAlign:"top",
+                            customButtonStyle:{
+                                borderRadius:"6px",
+                                size:"38px",
+                                horizontalMargin:"13px",
+                                bottomMargin:"140px",
+                                rightMargin:"40px"}
+                            }
+            });        
+        $('.ht-skip').attr("aria-hidden","true")
+    },
+document.body.appendChild(scriptElem);
+
+</script>
+</body>
+</html>

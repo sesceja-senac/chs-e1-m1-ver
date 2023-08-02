@@ -1,0 +1,151 @@
+figure {
+  text-align: center;
+  max-width: 100%;
+}
+
+h3 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 40px;
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figure figcaption {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+.btn-theme {
+  width: 261px;
+  height: 241px;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex.center {
+  justify-content: center;
+}
+
+.logos {
+  text-align: center;
+}
+
+.mt-60 {
+  margin-top: 60px;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+.btt1 {
+  background-image: url(../../conteudo/imgAjuste23/info01_bt01.png);
+}
+.btt1,
+.btt2,
+.btt3,
+.btt4,
+.btt5  {
+  transition: all ease-in-out 0.3s;
+}
+.btt1:hover,
+.btt2:hover,
+.btt3:hover,
+.btt4:hover,
+.btt5:hover  {
+  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao01-hover.png); */
+  cursor: pointer;
+  opacity: 0.8;
+  transform: scale(1.1);
+  
+}
+.btt2 {
+  background-image: url(../../conteudo/imgAjuste23/info01_bt02.png);
+}
+.btt2:hover {
+  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao02-hover.png); */
+  cursor: pointer;
+}
+.btt3 {
+  background-image: url(../../conteudo/imgAjuste23/info01_bt03.png);
+}
+.btt3:hover {
+  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao03-hover.png); */
+  cursor: pointer;
+}
+.btt4 {
+  background-image: url(../../conteudo/imgAjuste23/info01_bt04.png);
+}
+.btt4:hover {
+  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao04-hover.png); */
+  cursor: pointer;
+}
+.btt5 {
+  background-image: url(../../conteudo/imgAjuste23/info01_bt05.png);
+}
+.btt5:hover {
+  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao05-hover.png); */
+  cursor: pointer;
+}
+.mobi-only {
+  display: none;
+}
+.mt40 {
+  margin-top: 40px;
+}
+
+.paginacao-sesc-eja {
+  text-align: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.btn-paginacao-sesc-eja {
+  display: inline-block;
+  width: 141px;
+  height: 63px;
+  cursor: pointer;
+  transition: 0ms;
+
+}
+
+.btn-paginacao-sesc-eja.prox {
+  background-image: url(../../conteudo/img/bt-proximo.png);
+}
+
+
+.btn-paginacao-sesc-eja.volt {
+  background-image: url(../../conteudo/img/bt-voltar.png);
+}
+
+.btn-paginacao-sesc-eja:hover {
+background-position: right;
+}
+
+
+.tooltip-marker {
+  border-bottom: 2px dashed darkcyan;
+}
+
+.tooltip-marker:hover {
+  cursor: pointer;
+  border-color: #e88034;
+}
+
+@media only screen and (max-width: 1000px) {
+  .desk-only {
+    display: none;
+  }
+  .mobi-only {
+    display: block;
+  }
+}
