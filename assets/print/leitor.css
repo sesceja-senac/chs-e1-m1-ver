@@ -13,16 +13,7 @@
 }
 
 /* VALORES DEFAULT DE TUDO*/
-figure figcaption {
-  text-align: center !important;
-  font-size: 0.8em !important;
-}
 
-img, div {
-  page-break-before: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-  page-break-after: auto !important; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
-  page-break-inside: avoid !important; /* or 'auto' */
-}
 
 .pagina a:link	{
   color: (internal value);
@@ -856,5 +847,6 @@ iframe, iframe.youtube-pl{
   display: none;
 }
 
-
+/* LP -> Modais exercicio tabela */
+#bgmodal-acerto, #bgmodal-erro {display: none !important;}
 

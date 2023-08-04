@@ -10,7 +10,6 @@
     z-index: 9999;
     left: 0;
     top: 0;
-    
 }
 @keyframes preloaderAnim {
     from{
@@ -33,5 +32,4 @@
     font-family: sans-serif;
     font-weight: bolder;
     color: #14438F;
-    text-align: center;
 }

@@ -95,7 +95,8 @@ font-weight: 700;
 
 @media print {
 
-  
+/* LP -> Modais exercicio tabela */
+#bgmodal-acerto, #bgmodal-erro {display: none !important;}  
 
 
     @page {
@@ -150,7 +151,7 @@ font-weight: 700;
      }
 
   .no-print, .nao-imprimir{
-      display: none;
+      display: none !important;
   }
   .print, .imprimir{
       display: initial !important;

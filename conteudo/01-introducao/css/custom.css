@@ -79,7 +79,122 @@
 .p-top {
     padding-top: 45px;
 }
-
+/*menu*/
+.dropdown-menu{
+    background: #707070;
+    border-radius: 0;
+    padding: 20px 35px;
+    box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+    left: -1px !important;
+    top: -2px !important;
+  
+  }
+  .dropdown-menu a{
+    border-bottom: 1px solid #fff;
+    padding: 0;
+    padding-bottom: 10px;
+    margin-bottom: 12px;
+    color: #fff;
+  }
+  .dropdown-menu a:hover{
+    color: #fff;
+    background: none;
+    text-decoration: underline;
+  }
+  .dropdown-menu ul a i{
+    display: none;
+  }
+  .dropdown-menu ul a.ativo i{
+    display: inline;
+    margin-left: -15px;
+  }
+  .dropdown-menu li:last-child a{border: none;}
+  .bt-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background: none;
+    border: none;
+  }
+  .fixar {
+    position:fixed;
+    width: 100%;
+    top: 0;
+    margin-top: unset;
+    z-index: 9;
+   
+  }
+  .dropdown-menu ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+      
+  }
+  .accordion-button i{
+    font-size: 20px;
+    margin: 0 10px;
+  }
+  .dropdown-toggle::after{display: none;}
+  .bg-light{
+    background: #e2e2e2;
+    border-bottom: 2px solid #a8a8a8;
+    border-top: 2px solid #bdbdbd;
+  }
+  .navbar-collapse{
+    background: none;
+  }
+  .nav-link i{
+    font-size: 25px;
+    color: #848383;
+    margin-right: 10px;
+  }
+  .navbar{
+    padding: 0;
+  }
+  .navbar-light .navbar-nav .nav-link{
+    padding: 5px 0;
+  }
+  .offcanvas{background-color: #00838d;}
+  
+  .dropdown button{
+    background: url("../img/menu-alt.png") center no-repeat;
+    background-color:#fff;
+    background-size: 70%;
+    box-shadow: 4px 4px 0px rgba(187, 187, 187, 0.8);
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    padding: 20px;
+    top: 15px;
+    left: 15px;
+    position: fixed;
+    z-index: 99999;
+  }
+  .dropdown-menu{
+    background: unset;
+    background-color: #00838D !important;
+  
+  }
+  .bg-fundo {
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    z-index: 500;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+    display: none;
+  }
+  
+  .bg-fundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  
+  /*fim do menu*/
 @media screen and (max-width: 1080px){
     .infografico1{
         width: 100%;

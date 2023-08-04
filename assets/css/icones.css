@@ -30,7 +30,18 @@
 }
 
 .icone.atencao::before{
-    background-image: url(../img/ico-atencao.png);
+    background-image: url(../img/Pg4-ico-praticar.png);
+    width: 115px;
+    height: 155px;
+    background-color: transparent;
+}
+.icone.importante::before{
+    left: 5px;
+    top: -35px;
+    background-image: url(../img/ico-importante.png);
+    width: 119px;
+    height: 143px;
+    background-color: transparent;
 }
 
 @media print{
