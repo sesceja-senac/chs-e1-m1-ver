@@ -1,9 +1,9 @@
-.icone.pesquisa::before{
-    background-image: url(../../img/ico-pesquisar.png);
+/* .icone.pesquisa::before{
+    background-image: url('../img/ico_pesquisar2.png');
     width: 100px;
     height: 125px;
     left: -54px;
-}
+} */
 
 .caixa-slide{
     padding: 10px;

@@ -95,9 +95,10 @@ a{
     height: 100vh;
     width: 100%;
     background-image: url('../../img/imgAjuste23/bg-tela-inicial.jpg');
+
     background-size: cover;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-position-x: 50%;
 }
 .img-atletas{
     display: block;
@@ -130,8 +131,12 @@ a{
     top: 34%;
 }
  .sub-titulo.init{
-    left: 0%;
-    max-width: 95%;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    width: 230px;
+    top: 7%;
 }
 .sub-titulo{
     position: absolute;
@@ -179,7 +184,7 @@ a{
 #icon1 div{
     left: 0;
     right: 0;
-    margin: 0 auto;
+    margin: 10px auto;
     height: 81px !important;
     width: 280px  !important;
     display: block  !important;
@@ -476,6 +481,9 @@ a{
         }
     }
     @media (max-width: 560px) {
+        .sub-titulo.init {
+            top: 150px;
+        }
         .hidden-xs {
             display: none;
         }
@@ -493,10 +501,10 @@ a{
             display: none;
         }
         #menu {
-            display: flex;
+            /* display: flex;
             justify-content: center;
             flex-wrap: wrap;
-            width: 100%;
+            width: 100%; */
         }
         .modal-video {
             width: 100%;
@@ -529,7 +537,7 @@ a{
             display: none;
         }
         #icon1 {
-            position: absolute;
+            /* position: absolute; */
         }
         #btn-1 img {margin-left: 0;}
         .sub-titulo {

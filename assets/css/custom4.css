@@ -221,12 +221,12 @@ h4 {
 .artigo-header {
   border-bottom: 2px solid #067c7c;;
 }
-.icone.pesquisa::before  {
+/* .icone.pesquisa::before  {
   width: 104px;
 }
 .icone.pesquisa::before {
-  background-image: url(../../img/ico-pesquisar.png);
-}
+  background-image: url('../img/ico_pesquisar2.png');
+} */
 .icone.pesquisa  {
   padding-left: 95px;
 }
@@ -346,11 +346,13 @@ figure {
     width: 334px;
   }
   .btn-mulher.m1 {
+    border-right: 2px solid white;
     top: 0;
     left: 0;
   }
   .btn-mulher.m4 {
     top: 0;
+    border-left: 2px solid white;
     left: 167px;
   }
 }

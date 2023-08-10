@@ -530,7 +530,7 @@ h3, .subtitulo{
  table.sesc{   
     border: 2px solid #00767F ;
     box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
-    margin: 0 auto;
+    margin: 40px auto !important;
  }
 
 
@@ -543,9 +543,9 @@ h3, .subtitulo{
      background-color: #F2F2F2;
      color: #00767F;
  }
- table.sesc th {
-     color: white;
-     background-color: #009ba7;   
+ table.sesc th, .tbth {
+     color: white!important;
+     background-color: #009ba7!important;   
  }
 
 /*cores auxiliares*/

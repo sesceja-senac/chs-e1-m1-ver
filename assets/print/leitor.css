@@ -125,7 +125,8 @@
   border: 2px groove (internal value);	
   }
   .pagina figcaption	{
-  display: block;	
+  display: block;
+  text-align: center;
   }
   .pagina figure	{
   display: block;
@@ -364,8 +365,12 @@
   .pagina td{
   display: table-cell;
   vertical-align: inherit;
+  border: 1px solid black;
   }	
-  
+  .pagina tr{
+    border: 1px solid black;
+    }	
+    
   .pagina tfoot{
   display: table-footer-group;
   vertical-align: middle;
