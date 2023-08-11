@@ -31,6 +31,8 @@ a{
     left: 0;
     right: 0;
     margin: 0 auto;
+    
+    transition: all 1.5s ease-out;
 }
 /* #menu > div{
     width: 365px;
@@ -45,7 +47,11 @@ a{
     left: -1000px;
 }
 
+#menu > div{
+}
 #menu > div a{
+    
+    /* transition: all 1.5s ease-out; */
     width: 100%;
     height: 100%;
     color: #fff !important;
@@ -57,12 +63,14 @@ a{
     /* cursor: pointer; */
 }
 #menu > div:nth-child(1){
+    transition: all 0.8s ease-in-out;
     background-image: url('../../img/pginicial/bt_1.png');
  }
  #menu > div:nth-child(1):hover{
     background-image: url('../../img/pginicial/bt_1_hover.png');
 }
 #menu > div:nth-child(2){
+    transition: all 1s ease-in-out;
     background-image: url('../../img/pginicial/bt_2.png');
  }
  #menu > div:nth-child(2):hover{
@@ -119,7 +127,8 @@ a{
 }
 .img-titulo2{
     position: absolute;
-    top: 5%;
+    left: -10%;
+    top: 34%;
     transition: all 0.5s ease-out;
     z-index: 10;
 }
@@ -132,7 +141,6 @@ a{
 }
  .sub-titulo.init{
     left: 0;
-    right: 0;
     display: block;
     margin: 0 auto;
     width: 230px;
@@ -140,7 +148,9 @@ a{
 }
 .sub-titulo{
     position: absolute;
-    top:85%;
+    left: -10%;
+    top: 7%;
+    width: 230px;
     transition: all 0.5s ease-out;
 }
 .img-titulo.init{
@@ -188,7 +198,6 @@ a{
     height: 81px !important;
     width: 280px  !important;
     display: block  !important;
-    /* max-width: 150px; */
     background-image: url('../../img/imgAjuste23/bt_video.png');
     background-repeat: no-repeat !important;
     background-size: cover !important;
@@ -196,6 +205,7 @@ a{
 }
 #icon1 div:hover{
     background-image: url('../../img/imgAjuste23/bt_video_hover.png');
+    background-size: 100% !important;
 }
 #icon2{
     position: absolute;
@@ -469,6 +479,7 @@ a{
             height: 240px;
             display: block;
             margin: 10px auto;
+            max-width: 100%;
         }
         .modal-video {
             width: 100%;
@@ -479,33 +490,7 @@ a{
             top: 50px;
             right: 130px;
         }
-    }
-    @media (max-width: 560px) {
-        .sub-titulo.init {
-            top: 150px;
-        }
-        .hidden-xs {
-            display: none;
-        }
-        .hidden-lg {
-            display: unset;
-        }
-       /* .img-titulo{
-            position: absolute;
-            width: 90%;
-            right: 0;
-            left: 0;
-            margin: 150px auto;
-        }     */
-        .img-atletas{
-            display: none;
-        }
-        #menu {
-            /* display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            width: 100%; */
-        }
+        
         .modal-video {
             width: 100%;
             background-color: #007981;
@@ -532,6 +517,33 @@ a{
             justify-content: center;
             align-items: center;
             
+        }   
+    }
+    @media (max-width: 560px) {
+        .sub-titulo.init {
+            top: 150px;
+        }
+        .hidden-xs {
+            display: none;
+        }
+        .hidden-lg {
+            display: unset;
+        }
+       /* .img-titulo{
+            position: absolute;
+            width: 90%;
+            right: 0;
+            left: 0;
+            margin: 150px auto;
+        }     */
+        .img-atletas{
+            display: none;
+        }
+        #menu {
+            /* display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            width: 100%; */
         }
         #icon3, #icon2, #icon4, #icon5 {
             display: none;

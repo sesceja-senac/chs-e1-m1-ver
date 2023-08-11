@@ -1181,6 +1181,8 @@ ul p{
   }
   .btt2 {
     background-image: url(../../img/imgAjuste23/info01_bt02.png);
+    margin-left: -40px;
+    margin-bottom: 8rem!important;
   }
   .btt2:hover {
     
@@ -1194,15 +1196,23 @@ ul p{
   }
   .btt4 {
     background-image: url(../../img/imgAjuste23/info01_bt04.png);
+    margin-left: -40px;
+    margin-bottom: 8rem!important;
   }
   .btt4:hover {
     background-image: url(../../img/imgAjuste23/info01_bt04_hover.png);
   }
   .btt5 {
     background-image: url(../../img/imgAjuste23/info01_bt05.png);
+    /* margin-left: 240px; */
+    margin-left: -40px;
+    margin-bottom: 8rem!important;
   }
   .btt5:hover {
     background-image: url(../../img/imgAjuste23/info01_bt05_hover.png);
+  }
+  
+  .btt6 {
   }
   .mt40 {
     margin-top: 40px;
@@ -1316,17 +1326,24 @@ ul p{
 }
 
 @media (max-width: 760px) {
-}
+    
+  .btt6 { display: none !important;}
+  .btt2,
+  .btt4,
+  .btt5  { margin-bottom: 0.1rem!important;}
+  .btParent  { margin-bottom: 0.1rem!important;}
+ }
+
 
 @media (max-width: 1000px) {
 
 }
 
 @media (max-width:500px) {
-    p{
+    /* p{
         white-space: break-spaces;
         line-break: anywhere;
-    }
+    } */
     .caixa-destaque{
         width: 100%;
         padding: 5px;

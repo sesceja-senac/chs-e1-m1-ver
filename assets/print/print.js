@@ -5,7 +5,7 @@
   var default_css_path = 'assets/css/';
   var fa_path = 'assets/fa/css/' ;
   var js_path = 'assets/js/';
-  var img_path = 'img/';
+  var img_path = 'assets/img/';
 
     //pra usar print modificado por conteudo, adicionar uma tag de script antes
   // do link do print.js no index do conteudo.
@@ -126,7 +126,7 @@
     HTMLstring+='<button class="btn btn-primary" data-click="fontSize" data-value="1">Médio</button> ';
     HTMLstring+='<button class="btn btn-primary" data-click="fontSize" data-value="2">Grande</button></span> ';
     HTMLstring+='</div>\n';
-    HTMLstring+='<img src="'+img_path+'logo_sesc_horizontal.svg" id="marcadaguaLogo">\n';
+    HTMLstring+='<img src="'+img_path+'sesccncsenac.png" id="marcadaguaLogo">\n';
     HTMLstring+='\n';
     HTMLstring+='<div id="booklet" class="visualizar-print">\n';
     HTMLstring+='<h1>' + $("#nome-curso").text() + '</h1>\n';
