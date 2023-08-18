@@ -12,14 +12,14 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 4px;
-    margin-top: -39px;
+    margin-top: -65px;
     position: relative;
     z-index: 2;
     background-color: white;
 }
 
-@media screen and (min-width:480px){
+@media screen and (min-width:580px){
     .caixa-slide{
-        margin-top: -55px;
+        margin-top: -65px;
     }
 }

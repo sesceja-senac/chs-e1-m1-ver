@@ -1155,6 +1155,7 @@ ul p{
   
   .btt1 {
     background-image: url(../../img/imgAjuste23/info01_bt01.png);
+    position: relative;
   }
   .btt1,
   .btt2,
@@ -1178,44 +1179,61 @@ ul p{
   }
   .btt1:hover {
     background-image: url(../../img/imgAjuste23/info01_bt01_hover.png);
+    position: relative;
+    z-index: 12;
   }
   .btt2 {
     background-image: url(../../img/imgAjuste23/info01_bt02.png);
-    margin-left: -40px;
-    margin-bottom: 8rem!important;
+    margin-left: -50px;
+    margin-bottom: 150px;
   }
   .btt2:hover {
     
     background-image: url(../../img/imgAjuste23/info01_bt02_hover.png);
+    position: relative;
+    z-index: 12;
   }
   .btt3 {
+    position: relative;
     background-image: url(../../img/imgAjuste23/info01_bt03.png);
   }
   .btt3:hover {
     background-image: url(../../img/imgAjuste23/info01_bt03_hover.png);
+    position: relative;
+    z-index: 12;
   }
   .btt4 {
     background-image: url(../../img/imgAjuste23/info01_bt04.png);
-    margin-left: -40px;
-    margin-bottom: 8rem!important;
+    margin-left: -50px;
+    margin-bottom: 150px;
   }
   .btt4:hover {
     background-image: url(../../img/imgAjuste23/info01_bt04_hover.png);
+    position: relative;
+    z-index: 12;
   }
   .btt5 {
+    position: relative;
     background-image: url(../../img/imgAjuste23/info01_bt05.png);
     /* margin-left: 240px; */
-    margin-left: -40px;
-    margin-bottom: 8rem!important;
+    margin-left: -50px;
+    /* margin-top: -20px; */
+    margin-bottom: 150px;
   }
   .btt5:hover {
     background-image: url(../../img/imgAjuste23/info01_bt05_hover.png);
+    
+    position: relative;
+    z-index: 12;
   }
   
   .btt6 {
   }
   .mt40 {
     margin-top: 40px;
+  }
+  .mtop{
+    margin-top: -100px;
   }
 
   .resp p{ color: #414141 !important;}
@@ -1326,16 +1344,17 @@ ul p{
 }
 
 @media (max-width: 760px) {
-    
+/*     
   .btt6 { display: none !important;}
   .btt2,
   .btt4,
   .btt5  { margin-bottom: 0.1rem!important;}
-  .btParent  { margin-bottom: 0.1rem!important;}
+  .btParent  { margin-bottom: 0.1rem!important;} */
  }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 610px) {
+    .btt6 { display: none !important;}
 
 }
 

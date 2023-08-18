@@ -347,7 +347,7 @@ a{
 }
 .modal-video .iframe {
     width: 560px;
-    height: 315px;
+    height: 255px;
     max-width: 100%;
 }
 .title-mobile {
@@ -361,7 +361,7 @@ a{
 }
 .hidden-lg {display: none;}
 .modal-video iframe {
-    height: 360px;
+    height: 270px;
     width: 420px;
     margin-left: 100px;
 }
