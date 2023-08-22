@@ -1355,6 +1355,10 @@ ul p{
 
 @media (max-width: 610px) {
     .btt6 { display: none !important;}
+    .btt2, .btt4, .btt5 {
+        margin-left: 0px;
+        margin-bottom: 100px;
+    }
 
 }
 

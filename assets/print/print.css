@@ -144,6 +144,7 @@ font-weight: 700;
         position: fixed;
         top: 1cm;
         left: 0px;
+        max-width: 100%;
         width: auto;
         height:auto;
         opacity: 0.07;
