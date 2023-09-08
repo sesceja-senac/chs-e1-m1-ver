@@ -258,7 +258,7 @@ figcaption {
 .bloco.estilo3 figcaption {
     color: white;
 }
-
+.objtext{ color: #fff !important;}
 .container .caixa {
     background-color:#00838d;
     background-repeat: no-repeat;
