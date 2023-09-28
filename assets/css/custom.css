@@ -420,6 +420,14 @@ div.box-atividade .f-positivo.text-success{
 .video{
     width: 700px; height: 400x; background-color: rgb(44, 44, 44); margin: 0 auto; display: block; border-radius: 10px;
 }
+
+.modal-pl{
+    width: 100%; height: 400x; background-color: rgb(44, 44, 44); margin: 0 auto; display: block; border-radius: 10px;
+}
+
+
+
+
 .boxC-modal{
     margin-top: 40px;
 }
@@ -1272,6 +1280,13 @@ ul p{
 .referencias p {
     white-space: break-spaces;
     line-break: anywhere;
+}
+
+.espera-tirinha{
+    width: 400px;
+    height: 300px;
+    background-color: #487f6b;
+    border: 5px solid black;
 }
 @media (max-width: 1680px) {
     
