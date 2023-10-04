@@ -1348,6 +1348,12 @@ ul p {
   background-color: #487f6b;
   border: 5px solid black;
 }
+
+.img-border {
+  border-radius: 20px;
+  filter: drop-shadow(#424242 4px 4px 4px);
+}
+
 @media (max-width: 1680px) {
   #bloco-bg-slider {
     top: 3.5%;
