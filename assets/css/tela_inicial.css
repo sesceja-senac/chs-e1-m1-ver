@@ -14,10 +14,6 @@ body {
   height: 100%;
   width: 100%;
   overflow: hidden;
-  /* background-image: url('../../img/pginicial/Telainicial-bg.jpeg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-position: 0px 120px; */
 }
 a {
   text-decoration: none;
@@ -55,9 +51,10 @@ a {
     transition: all 0.5s ease-out;
     margin-top: -15px;
 } */
-.box > img:not(.img-titulo, .init) {
+
+/* .box > img:not(.img-titulo, .init) {
   left: -1000px;
-}
+} */
 
 #menu > div {
 }
@@ -113,7 +110,7 @@ a {
   display: block;
   height: 100vh;
   width: 100%;
-  background-image: url("../../img/imgAjuste23/bg-tela-inicial.jpg");
+  background-image: url("../../img/tela-inicial/bg.jpg");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -170,18 +167,6 @@ a {
 .sub-titulo.init {
   left: 2%;
 }
-/* #bt-intro1 a, #bt-intro2 a, #bt-intro4 a, #bt-intro4 a, #bt-intro5 a, #bt-intro6 a{
-    transition: all 0.3s;
-}
-
-#bt-intro1:hover a, #bt-intro2:hover a, #bt-intro3:hover a, #bt-intro4:hover a, #bt-intro5:hover a, #bt-intro6:hover a{ 
-    text-shadow: -10px 10px 0px #919191,
-                 -20px 20px 0px #3b3b3b,
-                 -30px 30px 0px #303030;
-                 color: transparent;
-    opacity: 0.65;
-    cursor: pointer;
-} */
 
 /* INI video intro */
 #btn-1 {
@@ -372,6 +357,30 @@ a {
 .video-titulo {
   margin-left: 100px;
   text-align: center;
+}
+
+.titulo {
+  width: 50%;
+  margin: auto;
+  position: absolute;
+  top: 10%;
+  left: 22%;
+}
+
+.grupo {
+  position: absolute;
+  bottom: 0%;
+  margin-bottom: -150px;
+  transform: translatey(0%);
+  animation: subir 0.5s linear;
+}
+@keyframes subir {
+  0% {
+    transform: translateX(0%) translateY(300%);
+  }
+  100% {
+    transform: translateX(0%) translateY(0%);
+  }
 }
 /* FIM video intro */
 /* @media (max-width: 1080px) {
