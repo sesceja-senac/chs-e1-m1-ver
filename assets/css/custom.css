@@ -38,6 +38,7 @@ body {
 .dropdown-menu a {
   white-space: break-spaces;
 }
+
 .acessivel {
   width: 0;
   height: 0;
@@ -108,6 +109,13 @@ figure {
   box-shadow: 10px 10px 3px #333333a8;
   border-radius: 5px;
   z-index: 2;
+}
+
+.btn-container {
+  background-image: url(../../img/painel_personagens.svg);
+  width: 440px;
+  height: 295px;
+  position: relative;
 }
 /* .video-box > div > div:nth-child(2) > video{ margin-left: -30px;}
 .video-box > div > div:nth-child(1) > video{ margin-left: 30px;}
@@ -329,6 +337,12 @@ figcaption {
   margin-top: 20px;
   margin-left: 20px;
 }
+
+.atividade {
+  display: flex;
+  justify-content: center;
+}
+
 .icone.destaque-letra {
   max-width: 500px;
   display: block;
@@ -1210,77 +1224,82 @@ ul p {
   margin-bottom: 60px;
 }
 
-.btt1 {
-  background-image: url(../../img/imgAjuste23/info01_bt01.png);
+.infografico {
+  background-image: url(../../img/img_infograf.png);
+  margin-top: 100px;
+  height: 1602px;
+  width: 505px;
+  background-repeat: no-repeat;
   position: relative;
 }
+
 .btt1,
 .btt2,
 .btt3,
 .btt4,
 .btt5 {
+  width: 50px;
+  height: 50px;
   transition: all ease-in-out 0.3s;
   background-repeat: no-repeat;
+  background-image: url(../../img/bt_infograf.svg);
+  right: 5%;
 }
 .btt1:hover,
 .btt2:hover,
 .btt3:hover,
 .btt4:hover,
 .btt5:hover {
-  /* background-image: url(../../conteudo/02-primeiro-fenomeno/img/botao01-hover.png); */
   cursor: pointer;
-  /* opacity: 0.8; */
-  /* transform: scale(1.1); */
   z-index: 99;
 }
-.btt1:hover {
+
+.btt1 {
+  position: absolute;
+  top: 16%;
+}
+
+/* .btt1:hover {
   background-image: url(../../img/imgAjuste23/info01_bt01_hover.png);
   position: relative;
   z-index: 12;
-}
+} */
 .btt2 {
-  background-image: url(../../img/imgAjuste23/info01_bt02.png);
-  margin-left: -50px;
-  margin-bottom: 150px;
+  position: absolute;
+  top: 37%;
 }
-.btt2:hover {
-  background-image: url(../../img/imgAjuste23/info01_bt02_hover.png);
+/* .btt2:hover {
   position: relative;
   z-index: 12;
-}
+} */
 .btt3 {
-  position: relative;
-  background-image: url(../../img/imgAjuste23/info01_bt03.png);
+  position: absolute;
+  top: 56%;
 }
-.btt3:hover {
+/* .btt3:hover {
   background-image: url(../../img/imgAjuste23/info01_bt03_hover.png);
   position: relative;
   z-index: 12;
-}
+} */
 .btt4 {
-  background-image: url(../../img/imgAjuste23/info01_bt04.png);
-  margin-left: -50px;
-  margin-bottom: 150px;
+  position: absolute;
+  top: 76%;
 }
-.btt4:hover {
+/* .btt4:hover {
   background-image: url(../../img/imgAjuste23/info01_bt04_hover.png);
   position: relative;
   z-index: 12;
-}
+} */
 .btt5 {
-  position: relative;
-  background-image: url(../../img/imgAjuste23/info01_bt05.png);
-  /* margin-left: 240px; */
-  margin-left: -50px;
-  /* margin-top: -20px; */
-  margin-bottom: 150px;
+  position: absolute;
+  top: 96%;
 }
-.btt5:hover {
+/* .btt5:hover {
   background-image: url(../../img/imgAjuste23/info01_bt05_hover.png);
 
   position: relative;
   z-index: 12;
-}
+} */
 
 .btt6 {
 }
@@ -1354,6 +1373,9 @@ ul p {
   filter: drop-shadow(#424242 4px 4px 4px);
 }
 
+.bt-atividade {
+  width: 200px;
+}
 @media (max-width: 1680px) {
   #bloco-bg-slider {
     top: 3.5%;
@@ -1451,7 +1473,19 @@ ul p {
   }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 505px) {
+  .btt1,
+  .btt2,
+  .btt3,
+  .btt4,
+  .btt5 {
+    right: 50px;
+  }
+
+  .infografico {
+    transform: scale(0.8);
+  }
+
   /* p{
         white-space: break-spaces;
         line-break: anywhere;
@@ -1459,6 +1493,7 @@ ul p {
   .caixa-destaque {
     width: 100%;
     padding: 5px;
+    margin-left: -100px;
   }
 
   .bloco3-pg1 .container {

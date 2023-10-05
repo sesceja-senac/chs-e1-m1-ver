@@ -1,150 +1,178 @@
 * {
-    transition-duration: .3s;
+  transition-duration: 0.3s;
 }
 
 .pagina {
-    padding-bottom: 30px;
+  padding-bottom: 30px;
 }
 
-.infografico1{
-    background: url('../imgs/infografico1-bg.png') no-repeat;
-    width: 890px;
-    height: 1108px;
-    margin: 30px auto;
-    padding: 15px 20px;
+.infografico1 {
+  background: url("../imgs/infografico1-bg.png") no-repeat;
+  width: 890px;
+  height: 1108px;
+  margin: 30px auto;
+  padding: 15px 20px;
 }
-.balao{
-    background: url(../imgs/infografico1-balao.png) no-repeat;
-    width: 470px;
-    height: 145px;
-    padding: 0px 10px 0 40px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
+.balao {
+  background: url(../imgs/infografico1-balao.png) no-repeat;
+  width: 470px;
+  height: 145px;
+  padding: 0px 10px 0 40px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
 }
-.balao p{font-size: 0.9rem;}
+.balao p {
+  font-size: 0.9rem;
+}
 
 .gif {
-    float: right;
-    height: 250px;
-    margin: 10px;
+  float: right;
+  height: 250px;
+  margin: 10px;
 }
 
 .m-img {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
 .ilustra03 {
-    width: 100%;
+  width: 100%;
 }
 
 .caixa {
-    margin: 30px auto;
+  margin: 30px auto;
 }
 
 .video {
-    background-color: black;
-    margin: 30px auto;
-    display: block;
-    border-radius: 5px;
+  background-color: black;
+  margin: 30px auto;
+  display: block;
+  border-radius: 5px;
 }
 
-.bt-filosofia, .bt-geografia, .bt-sociologia, .bt-historia {
-    margin: 30px 10px;
-    padding: 10px 60px;
-    font-size: 20px;
-    background-color: transparent;
-    border: 2px solid #00838D;
-    border-radius: 10px;
-    width: 210px;
-    color: #212529;
+.bt-sociologia,
+.bt-filosofia,
+.bt-geografia,
+.bt-historia {
+  background-color: transparent;
+  border: none;
+  width: 153px;
+  height: 153px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  position: absolute;
 }
 
-.bt-filosofia:hover, .bt-geografia:hover,.bt-sociologia:hover, .bt-historia:hover {
-    background-color: #00838D;
-    color: white;
+.bt-sociologia {
+  background-image: url(../../img/painel_socio1.svg);
+  top: 20px;
+  left: 220px;
+}
+.bt-filosofia {
+  background-image: url(../../img/painel_fil1.svg);
+  top: 30px;
+  left: 90px;
+}
+.bt-geografia {
+  background-image: url(../../img/painel_geo1.svg);
+  top: 155px;
+  left: 100px;
 }
 
-.btn-container {
-    display: block;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.bt-historia {
+  background-image: url(../../img/painel_hist1.svg);
+  top: 120px;
+  left: 220px;
+}
+
+.bt-sociologia:hover {
+  background-image: url(../../img/painel_socio.svg);
+}
+.bt-historia:hover {
+  background-image: url(../../img/painel_hist.svg);
+}
+
+.bt-filosofia:hover {
+  background-image: url(../../img/painel_fil.svg);
+}
+
+.bt-geografia:hover {
+  background-image: url(../../img/painel_geo.svg);
 }
 
 .ilustra01 {
-    margin: 20px auto;
+  margin: 20px auto;
 }
 
 .p-top {
-    padding-top: 45px;
+  padding-top: 45px;
 }
 
-  
-  /*fim do menu*/
-@media screen and (max-width: 1080px){
-    .infografico1{
-        width: 100%;
-    }
-    .infografico1 img{
-        max-width: 55%;
-    }
-    .video{max-width: 100%;}
+/*fim do menu*/
+@media screen and (max-width: 1080px) {
+  .infografico1 {
+    width: 100%;
+  }
+  .infografico1 img {
+    max-width: 55%;
+  }
+  .video {
+    max-width: 100%;
+  }
 }
 
 @media (max-width: 600px) {
-    .gif {
-        float: unset;
-        display: block;
-        margin: 10px auto;
-    }
+  .gif {
+    float: unset;
+    display: block;
+    margin: 10px auto;
+  }
 
-    .btn-container {
-        flex-direction: column;
-    }
+  .btn-container {
+    flex-direction: column;
+  }
 
-    .infografico1 {
-        background-image: unset;
-        background-color: #00a7b3;
-        border-radius: 25px;
-        height: auto;
-    }
+  .infografico1 {
+    background-image: unset;
+    background-color: #00a7b3;
+    border-radius: 25px;
+    height: auto;
+  }
 
-    .infografico1 .d-flex {
-        flex-direction: column;
-    }
+  .infografico1 .d-flex {
+    flex-direction: column;
+  }
 
-    .infografico1 .reverse {
-        flex-direction: column-reverse;
-    }
+  .infografico1 .reverse {
+    flex-direction: column-reverse;
+  }
 
-    .infografico1 img {
-        max-width: 90%;
-        margin: 10px auto;
-        display: block;
-    }
+  .infografico1 img {
+    max-width: 90%;
+    margin: 10px auto;
+    display: block;
+  }
 
-    .balao {
-        width: 100%;
-        background-image: unset;
-        background-color: white;
-        margin: 5px;
-        border-radius: 15px;
-        padding: 10px;
-    }
+  .balao {
+    width: 100%;
+    background-image: unset;
+    background-color: white;
+    margin: 5px;
+    border-radius: 15px;
+    padding: 10px;
+  }
 
-    .balao p {
-        margin: 10px auto;
-        
-    }
+  .balao p {
+    margin: 10px auto;
+  }
 }
 
-
-@media screen and (max-width:400px){
-    .caixa{
-        padding: 2px;
-    }
-    .balao{
-        height: auto;
-    }
+@media screen and (max-width: 400px) {
+  .caixa {
+    padding: 2px;
+  }
+  .balao {
+    height: auto;
+  }
 }
