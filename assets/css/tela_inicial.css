@@ -174,7 +174,7 @@ a {
   z-index: 5;
 }
 .btn-1:hover {
-  background-image: url("../../img/tela-inicial/bt_hover.svg");
+  background-image: url('../../img/tela-inicial/mao.svg'), url("../../img/tela-inicial/bt_hover.svg");
 }
 .btn-1.init {
   bottom: -500px;
