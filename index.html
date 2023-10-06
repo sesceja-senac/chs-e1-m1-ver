@@ -17,29 +17,29 @@
       <h1>Aguarde enquanto o conteúdo é carregado.</h1>
     </div>
     <div class="box">
-      <img src="img/imgAjuste23/logotipo.png" class="img-titulo" alt="" />
-      <img src="img/tela-inicial/titulo.svg" class="titulo" alt="" />
-      <img src="img/capa/logo_sesc.png" class="logo" alt="" />
-      <img src="img/tela-inicial/grupo.svg" class="grupo" srcset="" />
+      <img src="img/imgAjuste23/logotipo.png" class="img-titulo" aria-hidden="true">
+      <img src="img/tela-inicial/area.svg" class="area" aria-hidden="true">
+      <img src="img/tela-inicial/titulo.svg" class="titulo d-none d-sm-block" aria-hidden="true">
+      <img src="img/tela-inicial/mobile_titulo.svg" class="titulo d-block d-sm-none" aria-hidden="true">
+      <img src="img/tela-inicial/grupo.svg" class="grupo d-none d-lg-block" aria-hidden="true">
+      <img src="img/tela-inicial/mobile_grupo.svg" class="grupo d-block d-lg-none" aria-hidden="true">
+      
+      <div class="aneis" id="icon1" aria-hidden="true">
+        <!-- <a href="conteudo.html?page=2" id="btn-2">
+                  
+              </a> -->
+        <div class="botao-video"></div>
+        <!-- <img src="img/capa/mob_bt_video.png" class="botao-video" alt=""> -->
+      </div>
 
       <div id="menu">
         <p class="sr-only no-print">Introdução aos direitos humanos</p>
         <p class="sr-only no-print">Iniciar</p>
-
-        <div class="aneis init">
-          <a href="conteudo.html?page=1" id="btn-1"> </a>
-        </div>
+        <a href="conteudo.html?page=1" class="btn-1"> </a>
 
         <p class="sr-only no-print">
-          Assista novamente ao vídeo introdutório deste módulo
+          Assista novamente ao vídeo introdutório deste módulo.
         </p>
-        <div class="aneis init" id="icon1">
-          <!-- <a href="conteudo.html?page=2" id="btn-2">
-                    
-                </a> -->
-          <div class="botao-video"></div>
-          <!-- <img src="img/capa/mob_bt_video.png" class="botao-video" alt=""> -->
-        </div>
       </div>
     </div>
 
@@ -47,10 +47,10 @@
       <div class="modal-video">
         <div class="wrapper">
           <button id="fechar-video">X</button>
-          <h3 class="video-titulo">
+          <p class="video-titulo">
             Olá! Antes de começar, assista ao vídeo introdutório sobre o módulo
             a seguir.
-          </h3>
+          </p>
           <iframe
             src="https://www.youtube.com/embed/5ck4nXHbmWI"
             title="YouTube video player"

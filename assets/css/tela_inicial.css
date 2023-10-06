@@ -56,17 +56,6 @@ a {
   left: -1000px;
 } */
 
-#menu > div {
-}
-#menu > div a {
-  /* transition: all 1.5s ease-out; */
-  width: 100%;
-  height: 100%;
-  color: #fff !important;
-  margin-left: 30px;
-  display: block;
-  font-size: 22px;
-}
 #menu > div:hover {
   /* cursor: pointer; */
 }
@@ -108,7 +97,7 @@ a {
 }
 .box {
   display: block;
-  height: 100vh;
+  height: 105vh;
   width: 100%;
   background-image: url("../../img/tela-inicial/bg.jpg");
 
@@ -169,38 +158,42 @@ a {
 }
 
 /* INI video intro */
-#btn-1 {
-  left: 0 !important;
-  right: 0 !important;
-  margin: 0 auto !important;
-  height: 41px !important;
-  width: 150px;
+.btn-1 {
+  position: absolute;
+  left: 29%;
+  bottom: -1500px;
+  margin: auto;
+  height: 600px;
+  width: 400px;
   display: block;
-  max-width: 150px;
-  margin-left: 200px;
-  margin-top: 200px;
-  background-image: url("../../img/imgAjuste23/bt_iniciar.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url('../../img/tela-inicial/mao.svg'), url("../../img/tela-inicial/bt.svg");
+  background-repeat: no-repeat, no-repeat;
+  background-size: contain, contain;
+  background-position: left bottom -120px, left 31px top 50px;
+  transition: all .4s;
+  z-index: 5;
 }
-#btn-1:hover {
-  background-image: url("../../img/imgAjuste23/bt_iniciar_hover.png");
+.btn-1:hover {
+  background-image: url("../../img/tela-inicial/bt_hover.svg");
+}
+.btn-1.init {
+  bottom: -500px;
 }
 #icon1 div {
-  left: 0;
-  right: 0;
-  margin: 10px auto;
-  height: 81px !important;
-  width: 280px !important;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+  height: 226px;
+  width: 236px;
   display: block !important;
-  background-image: url("../../img/imgAjuste23/bt_video.png");
-  background-repeat: no-repeat !important;
-  background-size: cover !important;
+  background-image: url("../../img/Video_apresentacao_pq_layout.png");
+  background-repeat: no-repeat;
+  background-size: contain;
   cursor: pointer;
+  transition: all .4s;
 }
 #icon1 div:hover {
-  background-image: url("../../img/imgAjuste23/bt_video_hover.png");
-  background-size: 100% !important;
+  transform: scale(1.1);
 }
 #icon2 {
   position: absolute;
@@ -257,7 +250,7 @@ a {
 
 .modal-video {
   background-image: url("../../img/capa/video_bg.png");
-  width: 1133px;
+  width: 1000px;
   height: 708px;
   background-size: contain;
   background-repeat: no-repeat;
@@ -266,7 +259,7 @@ a {
   color: white;
   font-size: 18px;
   position: absolute;
-  top: 100px;
+  top: 50px;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -282,7 +275,7 @@ a {
 #fechar-video {
   position: absolute;
   top: 60px;
-  right: 330px;
+  right: 200px;
   background-color: white;
   border-radius: 50%;
   width: 40px;
@@ -363,16 +356,27 @@ a {
   width: 50%;
   margin: auto;
   position: absolute;
-  top: 10%;
+  top: 50px;
   left: 22%;
 }
-
+.area{
+  position: absolute;
+  top: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  max-width: 600px;
+}
 .grupo {
   position: absolute;
   bottom: 0%;
-  margin-bottom: -150px;
+  margin: auto;
+  margin-bottom: -100px;
   transform: translatey(0%);
   animation: subir 0.5s linear;
+  width: 86%;
+  left: 0;
+  right: 0;
 }
 @keyframes subir {
   0% {
@@ -382,28 +386,6 @@ a {
     transform: translateX(0%) translateY(0%);
   }
 }
-/* FIM video intro */
-/* @media (max-width: 1080px) {
-    #menu{ margin-right: 10%;}
-    .img-atletas{
-        margin-left: -5%;
-        margin-top: 80px;
-    }
-} */
-/* @media (max-width: 1680px) {
-}
-@media (max-width: 860px) {
-    #menu{
-        margin: 280px auto 0px
-    }
-    #bt-intro1, #bt-intro2, #bt-intro3 {
-        height: 250px;
-    }
-}
-@media (max-width: 760px) {
-    #bt-intro1, #bt-intro2, #bt-intro3 {
-        height: 200px;
-    }*/
 
 @media (max-width: 1360px) {
   .img-atletas {
@@ -411,46 +393,21 @@ a {
   }
 }
 @media (max-width: 1280px) {
-  .aneis > img {
-    max-width: 150px;
+  #menu {
+    left: 1%;
   }
-  #icon3 {
-    right: 21%;
+  #icon1 div{
+    width: 150px;
   }
-  #icon4 {
-    right: 18%;
+  .btn-1.init {
+    bottom: -470px;
+    height: 500px;
+    width: 320px;
   }
-  #icon5 {
-    right: 1%;
-  }
-  .graficoAnim:nth-child(2) {
-    top: 40px;
-    left: 36px;
-    width: 120px;
-  }
-  .graficoAnim:nth-child(3) {
-    top: 59px;
-    left: 54px;
-    width: 83px;
-  }
-  .graficoAnim:nth-child(4) {
-    top: 66px;
-    left: 67px;
-    width: 67px;
-  }
+  .grupo{margin-bottom: -70px;}
+}
   @media (max-width: 1080px) {
-    .img-atletas {
-      top: 50%;
-    }
-    /* .botao-video {
-            top: 0px;
-        } */
-    #menu {
-      left: 1%;
-    }
-    /* .img-titulo.init, .sub-titulo.init {
-            left: 2%;
-        } */
+    .grupo{width: 100%;}
   }
   @media (max-width: 1000px) {
     .hidden-xs {
@@ -466,31 +423,7 @@ a {
             left: 0;
             margin: 150px auto;
         }     */
-    .img-atletas {
-      display: none;
-    }
-    /* #menu {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            width: 100%;
-        }
-        #icon3, #icon2, #icon4, #icon5 {
-            display: none;
-        }
-        #icon1 {
-            position: absolute;
-        }
-        #btn-1 img {margin-left: 0;}
-        .sub-titulo {
-            width: 70%;
-            bottom: 0;
-            top: unset;
-            
-        }
-        .sub-titulo.init {
-            left: 5px;
-        } */
+
     .modal-video iframe {
       width: 360px;
       height: 240px;
@@ -534,8 +467,71 @@ a {
       justify-content: center;
       align-items: center;
     }
+    .grupo{width: 50%;}
+    .btn-1{
+      background-image: url(../../img/tela-inicial/mobile_bt.svg);
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+      height: 120px;
+      width: 150px;
+      left: -100px;
+    }
+    .btn-1.init {
+      bottom: 650px;
+      top: -150px;
+      left: -100px;
+      right: 0;
+      margin: auto;
+      height: 120px;
+      width: 150px;
+    }
+    .img-titulo {
+      position: absolute;
+      right: unset;
+      left: 5%;
+      top: unset;
+      bottom: 5%;
+      transition: all 0.5s ease-out;
+    }
+    #icon1 div{
+      left: 10px;
+      top: 100px;
+    }
   }
-  @media (max-width: 560px) {
+  @media (max-width: 650px) {
+    .area{
+      max-width: 90%;
+    }
+    #icon1 div{
+      left: 0;
+      right: 0;
+      margin: auto;
+      top: 60px;
+    }
+    .titulo {
+      width: 100%;
+      margin: auto;
+      position: absolute;
+      top: 200px;
+      left: 0;
+    }
+    .btn-1.init{
+      top: 15px;
+      left: -40px;
+    }
+    .wrapper{width: 100%;}
+    .img-titulo {
+      z-index: 2;
+      width: 80px;
+      bottom: 10px;
+    }
+    .grupo {
+      width: 100%;
+      z-index: 1;
+      margin-bottom: -150px;
+    }
+    
     .sub-titulo.init {
       top: 150px;
     }
@@ -582,4 +578,3 @@ a {
       left: 5px;
     }
   }
-}
