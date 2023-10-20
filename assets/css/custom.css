@@ -116,6 +116,8 @@ figure {
   width: 440px;
   height: 295px;
   position: relative;
+  margin: 100px auto;
+  transform: scale(1.5);
 }
 /* .video-box > div > div:nth-child(2) > video{ margin-left: -30px;}
 .video-box > div > div:nth-child(1) > video{ margin-left: 30px;}
@@ -1224,85 +1226,14 @@ ul p {
   margin-bottom: 60px;
 }
 
-.infografico {
-  background-image: url(../../img/img_infograf.png);
-  margin-top: 100px;
-  height: 1602px;
-  width: 505px;
-  background-repeat: no-repeat;
-  position: relative;
+.infografico{
+  max-width: 498px;
 }
-
-.btt1,
-.btt2,
-.btt3,
-.btt4,
-.btt5 {
-  width: 50px;
-  height: 50px;
-  transition: all ease-in-out 0.3s;
-  background-repeat: no-repeat;
-  background-image: url(../../img/bt_infograf.svg);
-  right: 5%;
+.infografico .sesc-audio-player{
+  margin-top: -30px;
+  margin-right: 40px;
 }
-.btt1:hover,
-.btt2:hover,
-.btt3:hover,
-.btt4:hover,
-.btt5:hover {
-  cursor: pointer;
-  z-index: 99;
-}
-
-.btt1 {
-  position: absolute;
-  top: 16%;
-}
-
-/* .btt1:hover {
-  background-image: url(../../img/imgAjuste23/info01_bt01_hover.png);
-  position: relative;
-  z-index: 12;
-} */
-.btt2 {
-  position: absolute;
-  top: 37%;
-}
-/* .btt2:hover {
-  position: relative;
-  z-index: 12;
-} */
-.btt3 {
-  position: absolute;
-  top: 56%;
-}
-/* .btt3:hover {
-  background-image: url(../../img/imgAjuste23/info01_bt03_hover.png);
-  position: relative;
-  z-index: 12;
-} */
-.btt4 {
-  position: absolute;
-  top: 76%;
-}
-/* .btt4:hover {
-  background-image: url(../../img/imgAjuste23/info01_bt04_hover.png);
-  position: relative;
-  z-index: 12;
-} */
-.btt5 {
-  position: absolute;
-  top: 96%;
-}
-/* .btt5:hover {
-  background-image: url(../../img/imgAjuste23/info01_bt05_hover.png);
-
-  position: relative;
-  z-index: 12;
-} */
-
-.btt6 {
-}
+.infografico .timestamp{color: #000;}
 .mt40 {
   margin-top: 40px;
 }
@@ -1372,10 +1303,24 @@ ul p {
   border-radius: 20px;
   filter: drop-shadow(#424242 4px 4px 4px);
 }
-
-.bt-atividade {
-  width: 200px;
+.caixa.atividade.icone{
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 30px;
 }
+.caixa.atividade.icone.praticar::before{
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: -50px;
+}
+.bt-atividade {
+  width: 250px;
+  margin: auto;
+  transition: all .6s;
+}
+.bt-atividade:hover {transform: scale(1.1);}
 @media (max-width: 1680px) {
   #bloco-bg-slider {
     top: 3.5%;

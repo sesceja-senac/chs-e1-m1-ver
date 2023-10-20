@@ -167,7 +167,12 @@
     margin: 10px auto;
   }
 }
-
+@media screen and (max-width: 600px) {
+  .btn-container {
+    transform: scale(0.6);
+    margin: -30px -40px;
+  }
+}
 @media screen and (max-width: 400px) {
   .caixa {
     padding: 2px;
@@ -175,8 +180,5 @@
   .balao {
     height: auto;
   }
-  .btn-container {
-    transform: scale(0.6);
-    margin-left: -70px;
-  }
+  
 }

@@ -35,11 +35,10 @@ a {
   display: block;
   width: 100%;
   position: absolute;
-  top: 55%;
   left: 0;
   right: 0;
   margin: 0 auto;
-
+  height: 100vh;
   transition: all 1.5s ease-out;
 }
 /* #menu > div{
@@ -160,24 +159,24 @@ a {
 /* INI video intro */
 .btn-1 {
   position: absolute;
-  left: 29%;
+  left: 20%;
   bottom: -1500px;
   margin: auto;
-  height: 600px;
-  width: 400px;
+  height: 360px;
+  width: 420px;
   display: block;
-  background-image: url('../../img/tela-inicial/mao.svg'), url("../../img/tela-inicial/bt.svg");
+  background-image: url('../../img/tela-inicial/mao_telainicial.png'), url("../../img/tela-inicial/bt.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: contain, contain;
-  background-position: left bottom -120px, left 31px top 50px;
+  background-size: 50%, 80%;
+  background-position: left bottom 0, right top;
   transition: all .4s;
   z-index: 5;
 }
 .btn-1:hover {
-  background-image: url('../../img/tela-inicial/mao.svg'), url("../../img/tela-inicial/bt_hover.svg");
+  background-image: url('../../img/tela-inicial/mao_telainicial.png'), url("../../img/tela-inicial/bt_hover.svg");
 }
 .btn-1.init {
-  bottom: -500px;
+  bottom: 0;
 }
 #icon1 div {
   position: absolute;
@@ -219,8 +218,6 @@ a {
 }
 .graficoAnim {
   position: absolute;
-}
-.graficoAnim:nth-child(0) {
 }
 .graficoAnim:nth-child(1) {
   top: 20px;
@@ -400,8 +397,7 @@ a {
     width: 150px;
   }
   .btn-1.init {
-    bottom: -470px;
-    height: 500px;
+    height: 300px;
     width: 320px;
   }
   .grupo{margin-bottom: -70px;}
@@ -478,8 +474,7 @@ a {
       left: -100px;
     }
     .btn-1.init {
-      bottom: 650px;
-      top: -150px;
+      top: 50px;
       left: -100px;
       right: 0;
       margin: auto;
