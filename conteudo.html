@@ -22,9 +22,11 @@
     <link rel="stylesheet" href="assets/css/aos.css">
     <!-- <link rel="stylesheet" href="assets_obj/css/style-olimpiadas-verdadeiro-ou-falso.css"> -->
 
-    <link rel="stylesheet" href="drag/js/dragula.css">
-    <link rel="stylesheet" href="drag/css/game-custom.css">
-    <link rel="stylesheet" href="objeto_associarColunas/css/associar-colunas.css">
+    <!-- <link rel="stylesheet" href="drag/js/dragula.css">
+    <link rel="stylesheet" href="drag/css/game-custom.css"> -->
+    <link rel="stylesheet" href="objeto_arrasta/js/dragula.css">
+    <link rel="stylesheet" href="objeto_arrasta/css/game-custom.css">
+    <!-- <link rel="stylesheet" href="objeto_associarColunas/css/associar-colunas.css"> -->
     <link rel="stylesheet" href="assets/print/print.css">
 </head>
 
@@ -2282,6 +2284,92 @@ Mulher é perseguida e assediada por homem enquanto fazia seu trajeto de bicicle
                 <p>
                     A seguir, arraste as definições para as respectivas leis. 
                 </p>
+                <div id="content-game">
+                                
+                    <div class="container-fluid game-body no-print" style="padding:0;">
+                        <div class="row">
+                            <div id="slots" class="col-12">
+                                <div class="row">
+                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                        <div class="game-titulo">
+                                            <p>Lei nº 13.340</p>
+                                        </div>
+                                        <div id="slot-1" class="slot">
+                                            
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-md-4 mt-3 mb-3">
+                                        <div class="game-titulo">
+                                            <p>Lei nº 13.104</p>
+                                        </div>
+                                    <div id="slot-2" class="slot">
+                                    
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 mt-3 mb-3">
+                                    <div class="game-titulo">
+                                        <p>Lei nº 2.848</p>
+                                    </div>
+                                    <div id="slot-3" class="slot">
+                                    
+                                    </div>
+                                </div>
+                                </div>
+                                
+                            </div>
+                
+                            <div id="cardPile" class="game-itens-container">
+                                <div id="card-1" class="card" data-target="slot-1">
+                                   Aprovada em agosto de 2006, é uma lei brasileira que visa coibir e prevenir os diversos tipos de violência contra as mulheres. É composta de 46 artigos distribuídos em sete títulos. A lei carrega o nome de uma mulher brasileira que ficou paraplégica devido às agressões do seu marido.
+                                </div>
+                                
+                                <div id="card-3" class="card"  data-target="slot-3">
+                                    Foi decretada em 7 de dezembro de 1940 e se refere ao homicídio de qualquer pessoa por motivos diversos.
+                                </div>
+                                
+                                <div id="card-2" class="card" data-target="slot-2">
+                                    Refere-se ao assassinato de mulheres por serem mulheres, ou seja, considera-se feminicídio quando envolve menosprezo, discriminação e violências que ocasionam na morte do sexo feminino.
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>                           
+                
+                <div class="modal fade" id="bgmodal-acerto" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-check    "></i> Parabéns! </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Resposta correta! </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+            
+                <div class="modal fade" id="bgmodal-erro" tabindex="-1" aria-labelledby="bgmodal-passou" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header bg-danger">
+                                <h5 class="modal-title" id="bgmodal-passou"><i class="fas fa-times    "></i> Atenção! </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Tente novamente.</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <p class="only-print">
                 Você deve ter percebido até o momento que existem leis que visam à diminuição da violência de gênero. Porém, é importante salientar a Lei nº 13.104, que entrou em vigor no dia 9 de março de 2015. Essa lei trata do feminicídio, tornando-o um homicídio qualificado, com penas mais altas, de 12 a 30 anos de prisão. A seguir, relacione as leis da primeira coluna com as definições da segunda coluna.  
@@ -2301,129 +2389,22 @@ Mulher é perseguida e assediada por homem enquanto fazia seu trajeto de bicicle
                 </tr>
             </table>
             <p class="only-print"><strong>Gabarito</strong>: 2, 1, 3. </p>
-                <!-- aqui -->
-                <div class="game-associar-colunas no-print nao-imprimir">
-                    
-                <p class="sr-only">
-                    Você deve ter percebido até o momento que existem leis que visam à diminuição da violência de gênero. Porém, é importante salientar a Lei nº 13.104, que entrou em vigor no dia 9 de março de 2015. Essa lei trata do feminicídio, tornando-o um homicídio qualificado, com penas mais altas, de 12 a 30 anos de prisão. 
+            <p class="sr-only">
+                Você deve ter percebido até o momento que existem leis que visam à diminuição da violência de gênero. Porém, é importante salientar a Lei nº 13.104, que entrou em vigor no dia 9 de março de 2015. Essa lei trata do feminicídio, tornando-o um homicídio qualificado, com penas mais altas, de 12 a 30 anos de prisão. 
 
- 
+
 
 1. Lei nº 13.340: aprovada em agosto de 2006, é uma lei brasileira que visa coibir e prevenir os diversos tipos de violência contra as mulheres. É composta de 46 artigos distribuídos em sete títulos. A lei carrega o nome de uma mulher brasileira que ficou paraplégica devido às agressões do seu marido. 
 
- 
+
 
 2. Lei nº 13.104: refere-se ao assassinato de mulheres por serem mulheres, ou seja, considera-se feminicídio quando envolve menosprezo, discriminação e violências que ocasionam na morte do sexo feminino. 
 
- 
+
 
 3. Lei nº 2.848: foi decretada em 7 de dezembro de 1940 e se refere ao homicídio de qualquer pessoa por motivos diversos. 
 
-                </p>
-
-                    <div class="row div-associar-colunas">
-                        <div class="col-4 flexs associar-colunas_01">
-                            <button data-resp="1" class="item item1">
-                                 Lei nº 13.340  
-                            </button>
-
-                            <button data-resp="2" class="item item2">
-                                 Lei nº 13.104 
-                            </button>
-
-                            <button data-resp="3" class="item item3">
-                                 Lei nº 2.848 
-                            </button>
-                        </div>
-                        <div class="col-8 flexs mt-3 associar-colunas_02">
-
-                            <button type="button" data-resp="1" class="resp resp1">
-                                <div class="txtacao"><i class="fas fa-question"></i></div>
-                                <p>Aprovada em agosto de 2006, é uma lei brasileira que visa coibir e prevenir os diversos tipos de violência contra as mulheres. É composta de 46 artigos distribuídos em sete títulos. A lei carrega o nome de uma mulher brasileira que ficou paraplégica devido às agressões do seu marido. </p>
-                            </button>
-
-                            <button type="button" data-resp="2" class="resp resp2">
-                                <div class="txtacao"><i class="fas fa-question"></i></div>
-                                <p>Refere-se ao assassinato de mulheres por serem mulheres, ou seja, considera-se feminicídio quando envolve menosprezo, discriminação e violências que ocasionam na morte do sexo feminino. </p>
-                            </button>
-
-                            <button type="button" data-resp="3" class="resp resp3">
-                                <div class="txtacao"><i class="fas fa-question"></i></div>
-                                <p>Foi decretada em 7 de dezembro de 1940 e se refere ao homicídio de qualquer pessoa por motivos diversos. </p>
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- Modal -->
-                    <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
-                        id="associar_colulas_errou" tabindex="-1" aria-labelledby="associarColunasErrou"
-                        aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-centered animate__animated animate__bounceIn">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="associarColunasErrou">Ops, tente novamente!</h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Modal -->
-                    <div class="modal fade associar_colunas_modal  no-print nao-imprimir"
-                        id="associar_colulas_acertou" tabindex="-1" aria-labelledby="associarColunasAcertou"
-                        aria-hidden="true">
-                        <div
-                            class="modal-dialog modal-dialog-centered  animate__animated animate__zoomIn animate__faster">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h5 class="modal-title" id="associarColunasAcertou">Muito bem! Você acertou!
-                                    </h5>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <p class="sr-only no-print">
-                    Você deve ter percebido até o momento que existem leis que visam à diminuição da violência de gênero. Porém, é importante salientar a Lei nº 13.104, que entrou em vigor no dia 9 de março de 2015. Essa lei trata do feminicídio, tornando-o um homicídio qualificado, com penas mais altas, de 12 a 30 anos de prisão. 
-
- 
-
-1. Lei nº 13.340: aprovada em agosto de 2006, é uma lei brasileira que visa coibir e prevenir os diversos tipos de violência contra as mulheres. É composta de 46 artigos distribuídos em sete títulos. A lei carrega o nome de uma mulher brasileira que ficou paraplégica devido às agressões do seu marido. 
-
- 
-
-2. Lei nº 13.104: refere-se ao assassinato de mulheres por serem mulheres, ou seja, considera-se feminicídio quando envolve menosprezo, discriminação e violências que ocasionam na morte do sexo feminino. 
-
- 
-
-3. Lei nº 2.848: foi decretada em 7 de dezembro de 1940 e se refere ao homicídio de qualquer pessoa por motivos diversos. 
-
-                </p>
-
-                <!-- <span class="no-print ">
-                    <p>Associe a primeira coluna com a segunda.</p>
-                    <table class="associe-colunas">
-                        <tr>
-                            <td>
-
-                            </td>
-                            <td>
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                                <br><br>
-                            </td>
-                        </tr>
-                    </table>
-                </span> -->
-                <!-- aqui -->
-                
-                </p>       
+            </p>
 
 
             <!--  -->
@@ -2566,8 +2547,10 @@ Mulher é perseguida e assediada por homem enquanto fazia seu trajeto de bicicle
     <script src="assets/js/scalable.js"></script>
     <!-- drag -->
 
-    <script src='drag/js/dragula.js'></script>
-    <script src="drag/js/game-custom.js"></script>
+    <!-- <script src='drag/js/dragula.js'></script> -->
+    <!-- <script src="drag/js/game-custom.js"></script> -->
+    <script src="objeto_arrasta/js/dragula.js"></script>
+    <script src="objeto_arrasta/js/game-custom.js"></script>
     <script src="assets/js/custom4.js"></script>
     <script src="objeto_associarColunas/js/associar-colunas.js"></script>
 
