@@ -445,7 +445,7 @@ h3,
 .youtube-pl {
   width: 80vw;
   height: Calc(80vw * 9 / 16);
-  max-width: 58em;
+  max-width: 54em;
   max-height: Calc(58em * 9 / 16);
   display: block;
   margin: 30px auto;

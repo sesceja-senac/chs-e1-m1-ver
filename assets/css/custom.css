@@ -38,7 +38,17 @@ body {
 .dropdown-menu a {
   white-space: break-spaces;
 }
-
+.pg1{
+  background: url('../../conteudo/img/Elemento_esq.png') no-repeat left 10px bottom 360px / 14%, url('../../conteudo/img/Elemento_esq2.png') no-repeat left bottom / 18%, url('../../conteudo/img/Elemento_dir.png') no-repeat right 10px top 100px / 15%;
+}
+.pg2, .pg4{
+  background: url('../../conteudo/img/Elemento_esq_pg2.png') no-repeat right top 200px / 15%, url('../../conteudo/img/Elemento_dir_pg2.png') no-repeat left top 100px / 15%, url('../../conteudo/img/Elemento_dir2.png') no-repeat left 10px top 1800px / 15%, url('../../conteudo/img/Elemento_esq2_pg2.png') no-repeat right 10px bottom 40px / 15%;
+}
+.pg3, .pg5{
+  background: url('../../conteudo/img/bg.jpg') repeat;
+  background-attachment: fixed;
+}
+.pg3 > .bloco > .container, .pg5 > .bloco > .container{background: #fff;}
 .acessivel {
   width: 0;
   height: 0;
@@ -125,7 +135,7 @@ figure {
 .pg-footer {
   background-color: transparent;
   position: absolute;
-  bottom: 0;
+  bottom: 25px;
 }
 div.bloco2-pg2 > div.container {
   background-color: transparent;
@@ -1334,6 +1344,11 @@ ul p {
     width: 25%;
     } */
 }
+@media screen and (max-width: 1420px){
+  .pg1{
+    background: url('../../conteudo/img/Elemento_esq.png') no-repeat left 10px bottom 360px / 10%, url('../../conteudo/img/Elemento_esq2.png') no-repeat left bottom / 10%, url('../../conteudo/img/Elemento_dir.png') no-repeat right 10px top 100px / 10%;
+  }
+}
 @media (max-width: 1280px) {
   .rellax-direita-big {
     display: none;
@@ -1341,8 +1356,15 @@ ul p {
   .rellax-esquerda-big {
     display: none;
   }
+  .pg2, .pg4{
+    background: url('../../conteudo/img/Elemento_esq_pg2.png') no-repeat right top 200px / 10%, url('../../conteudo/img/Elemento_dir_pg2.png') no-repeat left top 100px / 10%, url('../../conteudo/img/Elemento_dir2.png') no-repeat left 10px top 1800px / 10%, url('../../conteudo/img/Elemento_esq2_pg2.png') no-repeat right 10px bottom 40px / 10%;
+  }
 }
-
+@media screen and (max-width: 1170px){
+  .pg1, .pg2, .pg3, .pg4, .pg5{
+    background: unset;
+  }
+}
 @media (max-width: 990px) {
   #topo img {
     display: none;

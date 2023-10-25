@@ -12,6 +12,7 @@
     display: inline-block;
     height: auto;
     max-width: 230px;
+    min-height: 170px;
     margin: 5px;
     box-shadow: 2px 2px 3px #333;
     border-radius: 10px;
