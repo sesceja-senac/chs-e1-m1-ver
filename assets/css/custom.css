@@ -1330,6 +1330,14 @@ ul p {
   margin: auto;
   transition: all .6s;
 }
+.tirinha-deslocados img{
+  margin: 10px 0;
+  width: 100%;
+
+}
+.tirinha-deslocados figure{ margin-top: 0; margin-bottom: 0;}
+.tirinha-deslocados figcaption{ margin-top: 0;}
+
 .bt-atividade:hover {transform: scale(1.1);}
 @media (max-width: 1680px) {
   #bloco-bg-slider {
