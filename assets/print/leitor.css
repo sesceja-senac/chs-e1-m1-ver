@@ -855,3 +855,10 @@ iframe, iframe.youtube-pl{
 /* LP -> Modais exercicio tabela */
 #bgmodal-acerto, #bgmodal-erro {display: none !important;}
 
+
+.tirinha-deslocados img{
+  width: 450px;
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
